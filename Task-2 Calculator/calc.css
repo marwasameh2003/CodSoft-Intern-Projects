@@ -1,0 +1,130 @@
+*
+{
+    background-color: #DAFFFB;
+}
+#buttons {
+    background-color: #64CCC5;
+
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(5);
+    gap: 2px;
+    grid-auto-rows: 50px;
+    grid-template-areas:
+        "b1  b2  b3  bp"
+        "b4  b5  b6  bs"
+        "b7  b8  b9  bm"
+        "b0  b0  b0  bd"
+        "c   c    del  e";
+    align-items: start;
+
+}
+
+.b1 {
+    grid-area: b1;
+}
+
+.b2 {
+    grid-area: b2;
+}
+
+.b3 {
+    grid-area: b3;
+}
+
+.b4 {
+    grid-area: b4;
+}
+
+.b5 {
+    grid-area: b5;
+}
+
+.b6 {
+    grid-area: b6;
+}
+
+.b7 {
+    grid-area: b7;
+}
+
+.b8 {
+    grid-area: b8;
+}
+
+.b9 {
+    grid-area: b9;
+}
+
+.b0 {
+    grid-area: b0;
+}
+
+.bp {
+    grid-area: bp;
+}
+
+.bs {
+    grid-area: bs;
+}
+
+.bm {
+    grid-area: bm;
+}
+
+.bd {
+    grid-area: bd;
+}
+
+.e {
+    grid-area: e;
+}
+
+.c {
+    grid-area: c;
+}
+.del
+{
+    grid-area: del;
+}
+button
+{
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: #001C30;
+    color: aliceblue;
+}
+#cal {
+    margin-right: 35%;
+    margin-left: 35%;
+    margin-bottom: 4%;
+    margin-top: 4%;
+    padding: 20px;
+    background-color: #64CCC5;
+    border-radius: 15px;
+
+    
+}
+
+#screen {
+    height: 40px; /* Set the desired height for the screen */
+    margin-bottom: 2px;
+    margin-top: 25px;
+    background-color: white;
+    color:#001C30;
+    border: 1px;
+    text-align: center;
+    font-size: larger;
+    border-radius: 15px;
+}
+#intro
+{
+    color: #001C30;
+    font-size: x-large;
+    font-weight: bolder;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #64CCC5;
+
+}
+/* The rest of your CSS styles */

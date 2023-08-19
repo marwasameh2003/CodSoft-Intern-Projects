@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calc.css">
+    <script src="calc.js"></script>
+</head>
+<body>
+    <div id="cal" style="color: white;">
+    <div id="intro">Calculator</div>
+    <div id="screen"></div>
+    <div id="buttons">
+    <button class="b1" onclick="displayOnScreen(1)">1</button> 
+    <button class="b2" onclick="displayOnScreen(2)">2</button> 
+    <button class="b3" onclick="displayOnScreen(3)">3</button>
+    <button class="bp" onclick="displayOnScreen('+')">+</button><br><br>
+    <button class="b4" onclick="displayOnScreen(4)">4</button>
+    <button class="b5" onclick="displayOnScreen(5)">5</button> 
+    <button class="b6" onclick="displayOnScreen(6)">6</button>
+    <button class="bs" onclick="displayOnScreen('-')">-</button> <br><br>
+    <button class="b7" onclick="displayOnScreen(7)">7</button>
+    <button class="b8" onclick="displayOnScreen(8)">8</button> 
+    <button class="b9" onclick="displayOnScreen(9)">9</button>
+    <button class="bm" onclick="displayOnScreen('x')">x</button><br> <br>
+    <button class="b0" onclick="displayOnScreen(0)">0</button>
+    <button class="bd" onclick="displayOnScreen('÷')">÷</button><br><br>
+    <button class="c" onclick="ClearScreen()">CLEAR</button>
+    <button class="del" onclick="dellast()">Del</button>
+    <button class="e" onclick="displayResult('=')">=</button> 
+</div>
+</div>
+</body>
+</html>
