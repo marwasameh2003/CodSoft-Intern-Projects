@@ -363,3 +363,24 @@ img {
     border-radius: 10%;
 }
 
+footer {
+    background-color: #116A7B;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0; /* Ensure the footer starts from the left edge */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px ;
+    padding-left: 320px;
+    z-index: 999;
+    height: 50px;
+}
+
+footer p
+{
+    color: #f0e6d5;
+    text-align: center;
+    font-weight: 600;
+}
