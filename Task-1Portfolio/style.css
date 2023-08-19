@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+header {
+    background-color: #116A7B;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 100px;
+
+}
+
+.logo {
+    text-decoration: none;
+    color: #ECE5C7;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.navigation a {
+    color: #ECE5C7;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.navigation a:hover {
+    color: #CDC2AE;
+}
+
+section {
+    background-color: #C2DEDC;
+
+    padding: 100px;
+    padding-right: 50px;
+}
+
+.main {
+
+    float: left;
+    background-color: #C2DEDC;
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    display: flex;
+}
+
+img {
+    background-color: transparent;
+}
+
+.main h2 {
+    color: #116A7B;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.main h2 span {
+    color: #025262;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.main h3 {
+    color: #116A7B;
+    font-size: 1.4em;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.main h5
+{
+    color: #116A7B;
+    font-size: 1em;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.main-but {
+    background-color: #116A7B;
+    color: #ECE5C7;
+    padding: 0.9237em 1.187em;
+    display: inline-block;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 1.2em;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.75s ease;
+}
+
+.main-but:hover {
+    background-color: #025262;
+    transform: scale(1.1);
+}
+
+.social a {
+    margin-top: 10px;
+    color: #116A7B;
+    font-size: 1.7em;
+    padding: 10px;
+}
+
+.amtitle {
+    text-align: center;
+    color: #116A7B;
+    font-size: 2.2em;
+    margin-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color: #d0e5e3;
+    width: 50em;
+    box-shadow: 0 5px 25px rgba(1 1 1 /15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 10px;
+    transition: 0.75s ease;
+    align-items: center;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card p {
+    margin: 10px;
+    padding: 2px;
+    color: #025262;
+}
+
+.card p::first-line {
+
+    text-align: center;
+    font-weight: 600;
+}
+
+
+.ts {
+    text-align: center;
+    color: #116A7B;
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.card2 {
+    background-color: #d0e5e3;
+    width: 17em;
+    box-shadow: 0 5px 25px rgba(1 1 1 /15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 10px;
+    transition: 0.75s ease;
+    align-items: center;
+}
+
+.card2:hover {
+    transform: scale(1.1);
+}
+
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    color: #116A7B;
+
+}
+
+.stars {
+    display: flex;
+    justify-content: flex-end;
+    color: #116A7B;
+    gap: 5px;
+    /* Adjust this value to control the spacing between stars */
+}
+.concepts
+{
+    margin: 10% 0px;
+    color: #116A7B;
+}
+#Around
+{
+    margin-left: 230px;
+    border-radius: 10px;
+    height: 40px;
+    width: 50%;
+    background-color: #025262;
+}
+
+#res
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e0dbd0;
+    font-weight: 800;
+    padding-top: 7px;
+    text-decoration: none;
+}
+
+#picphoto
+{
+    color: #116A7B;
+    width: 30px;
+    height: 30px;
+}
+.phone
+{
+    text-align: center;
+    background-color: #d0e5e3;
+    width: 17em;
+    box-shadow: 0 5px 25px rgba(1 1 1 /15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 10px;
+    transition: 0.75s ease;
+    align-items: center;
+    height: 250px;
+    padding-top: 50px;
+    
+}
+
+.phone:hover {
+    transform: scale(1.1);
+}
+
+.fa-phone-volume ,.fa-envelope ,.fa-linkedin
+{
+    color:#025262;
+    font-size: xx-large;
+}
+
+.phone i , .phone p
+{
+    margin: 10px;
+    color: #025262;
+}
+#toSmall
+{
+    padding-top: 2px;
+    font-size: smaller;
+}
+.c
+{
+    margin-top: 30px;
+    background-color: #025262;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+.procards
+{
+    border: 2px solid #e4dbcb;
+    height: 350px;
+    width: 250px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 25px 10px;
+    transition: 0.7s ease;
+}
+.procards:hover
+{
+    transform: scale(1.1);
+}
+.c
+{
+    background-color: #025262;
+    border-radius: 10px;
+    margin-top:30px ;
+}
+.proimg img
+{
+    width: 250px;
+    height: 200px;
+    object-fit: fill;
+}
+.procards:hover .proimg
+{
+    opacity: 0.9;
+}
+.proinfo
+{
+    color: #e4dbcb;
+    padding: 1em;
+    
+}
+.proinfo span
+{
+    font-size: smaller;
+}
+.protitle
+{
+    font-weight: 800;
+    font-size: smaller;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.prolinks
+{
+    color: #025262;
+    text-decoration: none;
+    font-size: smaller;
+    font-weight: 600;
+    padding: 25px;
+    margin-left: 10px;
+    
+    
+}
+.linksBox
+{
+
+    margin: 10px;
+    width: 100px;
+    background-color:#e4dbcb;
+    box-shadow: 0 5px 25px rgba(1 1 1 /15%);
+    border-radius: 10px;
+    margin-left: 55px;
+    
+}
+
+#hijab
+{
+    color: #116A7B;
+    margin-left: 60px;
+    width: 450px;
+    height: 450px;
+    border-radius: 10%;
+}
+
+
+.pic {
+    border-radius: 10%;
+}
+
