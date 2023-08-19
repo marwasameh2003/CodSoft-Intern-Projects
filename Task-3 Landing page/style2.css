@@ -1,0 +1,187 @@
+body {
+    background-color: #65451F;
+}
+
+#container {
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    align-self: center;
+    background-color: #ffffff;
+    margin: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 90%;
+    height: 500px;
+}
+
+#linkat {
+    float: left;
+    margin-top: 60px;
+    margin-left: 40px;
+}
+
+.link {
+    text-decoration: none;
+    color: #765827;
+    padding: 10px;
+    margin-left: 25px;
+
+}
+
+.home {
+    font-weight: 600;
+}
+
+.link:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    font-weight: 600;
+}
+
+#sora {
+    float: left;
+    margin-right: 0%;
+    padding-right: 0%;
+}
+
+#logo {
+    margin-top: 10px;
+    margin-right: 90%;
+    margin-left: 5%;
+    padding-right: 0%;
+    height: 100px;
+    width: 190px;
+
+}
+
+#search {
+    border-radius: 5px;
+    width: 100px;
+    margin-left: 10px;
+    width: 70px;
+    border-style: none;
+    border-color: #765827;
+
+}
+
+#search::placeholder {
+    font-size: xx-small;
+    color: #C8AE7D;
+}
+#search:focus
+{
+    outline: none;
+}
+
+#search2 {
+    border-style: solid;
+    border-color: #765827;
+    width: 120px;
+    height: 20px;
+    float: left;
+    margin-top: 58px;
+    margin-left: 20px;
+    border-radius: 5px;
+
+}
+
+.fa-magnifying-glass {
+
+    font-size: x-small;
+    color: #65451F;
+}
+
+#foodPic {
+    float: left;
+    margin-left: 7%;
+    margin-top: 3%;
+}
+
+.food {
+    width: 120px;
+    height: 120px;
+    display: block;
+    margin-top: 5px;
+    border-radius: 50%;
+}
+
+.fa-facebook,
+.fa-instagram,
+.fa-youtube,
+.fa-phone {
+    color: #65451F;
+    font-size: xx-large;
+    display: block;
+}
+
+/* Add this CSS to your existing styles.css file */
+#bd {
+    display: flex;
+    /* Use flexbox to arrange elements in a row */
+    align-items: center;
+    /* Vertically align elements */
+    margin-top: 10%;
+    margin-left: 8%;
+    float: left;
+    padding-bottom: 10px;
+}
+
+#caption {
+    color: #755d30;
+    font-weight: 800;
+    font-size: xx-large;
+    text-align: left;
+    margin-right: 20px;
+    /* Add some space between caption and icons */
+}
+
+#tawasol {
+    display: inline-flexbox;
+    /* Use flexbox to arrange icons in a row */
+    align-items: center;
+    /* Vertically align icons */
+    margin-top: 40%;
+}
+
+#tawasol i {
+    color: #755d30;
+    font-size: xx-large;
+    margin: 5px;
+    /* Add some space between icons */
+    margin-left: 100px;
+    margin-top: 15%;
+
+}
+
+#para {
+    text-align: justify;
+    font-size: medium;
+    color: #755d30;
+    max-width: 370px;
+    padding-top: 0%;
+    margin-top: 1%;
+
+}
+
+#title {
+    background-color: #C8AE7D;
+    font-size: larger;
+    font-weight: bolder;
+    color: #593b17;
+    padding: 5px;
+    border-radius: 35%;
+
+}
+
+#inMiddle {
+    display: block;
+    margin-top: 3%;
+
+}
+
+button
+{
+    background-color: #5d3706;
+    color: #ffffff;
+    margin-top: 15px;
+    border-radius: 10%;
+}
